@@ -1,3 +1,5 @@
+require 'pry'
+
 class Article
     attr_reader :author, :magazine, :title
     @@all = []
@@ -10,6 +12,5 @@ class Article
     def self.all
         @@all
     end
- 
-
 end
+binding .pry
